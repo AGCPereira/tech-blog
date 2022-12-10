@@ -4,6 +4,7 @@ const {
     Post,
     Comment
 } = require('../../models');
+const withAuth = require('../../utils/auth');
 
 //get all posts
 router.get("/", (req, res) => {
@@ -70,6 +71,7 @@ router.get("/:id", (req, res) => {
         });
 });
 
+//create post
 router.post("/", (req, res) => {
     Post.create({
             title: req.body.title,
