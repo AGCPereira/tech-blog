@@ -130,10 +130,10 @@ router.post('/login', (req, res) => {
 router.post('/logout', (req, res) => {
     if (req.session.loggedIn) {
         req.session.destroy(() => {
-            res.status(204).end();
+            res.status(204).end(); //will not return content
         });
     } else {
-        res.status(404).end(); //will not return content
+        res.status(404).end(); 
     }
 
 });
