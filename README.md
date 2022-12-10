@@ -18,4 +18,4 @@
 ![14-mvc-homework-demo-01](https://user-images.githubusercontent.com/106856333/206851686-a1e5cdf2-2405-4a13-a467-3b16ebc26757.gif)
 
 ## Deployed link
-* 
+* https://agcp-my-tech-blog.herokuapp.com/
